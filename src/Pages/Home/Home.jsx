@@ -12,7 +12,7 @@ const Home = () => {
         <div className='container my-5'>
             <h1>All Users</h1>
 
-            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div className="row row-cols-1 row-cols-md-3 g-4">
 
               {
                 users.map(user=><User
